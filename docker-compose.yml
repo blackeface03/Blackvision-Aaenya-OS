@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  aenya-os:
+    build: .
+    container_name: blackvision-aenya-demo
+    volumes:
+      - ./aenya_memory.db:/app/aenya_memory.db
